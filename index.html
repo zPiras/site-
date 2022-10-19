@@ -1,14 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        a
-    </h1>
+    <main class="container">
+        <h2>Login</h2>
+        <form action="">
+            <div class="input-field">
+                <input type="text" name="username" id="username"
+                    placeholder="Digite seu Usuario">
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                    placeholder="Digite sua Senha">
+                <div class="underline"></div>
+            </div>
+
+            <input type="submit" value="Continue">
+              <div class="botao">
+                <button class="btn">Cadastrar</button>
+             </div>
+        </form>
+
+        <div class="footer">
+            <span>Entre com suas redes sociais também!</span>
+            <div class="social-fields">
+                <div class="social-field instagram">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                        Login pelo Instragram
+                    </a>
+                </div>
+                <div class="social-field facebook">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        Login pelo Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
